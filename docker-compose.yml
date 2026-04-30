@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     container_name: smartshop-backend
     ports:
-      - "8000:8000"
+      - "8000:7860"
     environment:
       - LLM_PROVIDER=${LLM_PROVIDER:-openai}
       - OPENAI_API_KEY=${OPENAI_API_KEY}
@@ -25,12 +25,13 @@ services:
       - LANGCHAIN_PROJECT=${LANGCHAIN_PROJECT:-SmartShop-AI}
     volumes:
       - ./backend/data:/app/data  # Mount data folder để dễ cập nhật
+      - ./backend/.env:/app/.env
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/health"]
+      test: ["CMD", "curl", "-f", "http://localhost:7860/api/v1/health"]
       interval: 30s
       timeout: 10s
       retries: 3
-      start_period: 20s
+      start_period: 120s
     restart: unless-stopped
     networks:
       - smartshop-network
