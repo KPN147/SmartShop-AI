@@ -15,7 +15,7 @@
 **A Multi-Agent E-commerce AI Chatbot System with RAG Architecture**  
 Automated sales consulting, order tracking, and policy answering in real-time.
 
-[🚀 View Demo](#demo) · [📖 API Docs](#api-docs) · [🐳 Docker Setup](#docker)
+[🚀 View Demo](#demo) · [📖 API Docs](#api-docs) · [🐳 Docker Setup](#docker-setup)
 
 </div>
 
@@ -33,6 +33,7 @@ Automated sales consulting, order tracking, and policy answering in real-time.
 
 ---
 
+<a id="overview"></a>
 ## 🎯 Overview
 
 **SmartShop AI** is a full-stack web application leveraging Generative AI to automate the sales consulting and customer care process for E-commerce platforms.
@@ -47,6 +48,7 @@ What makes this project different from a typical chatbot:
 
 ---
 
+<a id="system-architecture"></a>
 ## 🏗️ System Architecture
 
 ```
@@ -92,6 +94,7 @@ What makes this project different from a typical chatbot:
 
 ---
 
+<a id="tech-stack"></a>
 ## 🛠️ Tech Stack
 
 ### Backend
@@ -121,6 +124,7 @@ What makes this project different from a typical chatbot:
 
 ---
 
+<a id="key-features"></a>
 ## ✨ Key Features
 
 ### 🛍️ Sales Agent
@@ -141,6 +145,7 @@ What makes this project different from a typical chatbot:
 
 ---
 
+<a id="quick-start--installation"></a>
 ## 🚀 Quick Start & Installation
 
 ### Requirements
@@ -187,6 +192,7 @@ npm run dev
 
 ---
 
+<a id="docker-setup"></a>
 ## 🐳 Docker Setup
 
 Run the entire project with just **1 command**:
@@ -205,6 +211,7 @@ Then access:
 
 ---
 
+<a id="configuration"></a>
 ## ⚙️ Configuration
 
 Copy `backend/.env.example` to `backend/.env` and fill in the values:
@@ -230,6 +237,7 @@ LANGCHAIN_PROJECT=SmartShop-AI
 
 ---
 
+<a id="project-structure"></a>
 ## 📁 Project Structure
 
 ```
@@ -272,6 +280,7 @@ smartshop-ai/
 
 ---
 
+<a id="api-docs"></a>
 ## 📊 API Docs
 
 When the backend is running, access:
