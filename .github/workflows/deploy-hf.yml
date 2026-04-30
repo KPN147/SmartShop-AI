@@ -28,9 +28,9 @@ jobs:
           # Clone repo từ Hugging Face
           git clone https://$HF_USERNAME:$HF_TOKEN@huggingface.co/spaces/$HF_USERNAME/$HF_SPACE_NAME hf_space
           
-          # Xóa các file cũ trong Space (giữ lại .git)
+          # Xóa các file cũ trong Space (giữ lại .git và README.md của Hugging Face)
           cd hf_space
-          find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
+          find . -maxdepth 1 ! -name '.git' ! -name '.' ! -name 'README.md' -exec rm -rf {} +
           cd ..
           
           # Copy toàn bộ code trong thư mục backend sang thư mục hf_space
