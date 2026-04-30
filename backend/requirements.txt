@@ -1,0 +1,30 @@
+# SmartShop AI - Backend Dependencies
+
+# Core Framework
+fastapi
+uvicorn[standard]
+python-dotenv
+
+# Pydantic (FastAPI validation)
+pydantic
+
+# LangChain ecosystem
+langchain
+langchain-openai
+langchain-google-genai
+langchain-community
+langchain-core
+langchain-text-splitters
+
+# Vector Database
+chromadb
+
+# OpenAI
+openai
+
+# Google Generative AI
+google-generativeai
+
+# Utilities
+httpx
+aiofiles

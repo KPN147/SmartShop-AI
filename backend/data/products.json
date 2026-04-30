@@ -1,0 +1,122 @@
+[
+  {
+    "id": "P001",
+    "name": "iPhone 15 Pro Max 256GB",
+    "category": "Điện thoại",
+    "brand": "Apple",
+    "price": 29990000,
+    "stock": 15,
+    "description": "Màn hình Super Retina XDR 6.7 inch, chip A17 Pro, camera 48MP, pin 4422mAh, hỗ trợ USB-C.",
+    "rating": 4.8,
+    "tags": ["iphone", "apple", "flagship", "5g", "camera"],
+    "image_url": "https://cdn.tgdd.vn/Products/Images/42/305658/iphone-15-pro-max-blue-thumbnew-600x600.jpg"
+  },
+  {
+    "id": "P002",
+    "name": "Samsung Galaxy S24 Ultra 256GB",
+    "category": "Điện thoại",
+    "brand": "Samsung",
+    "price": 26990000,
+    "stock": 20,
+    "description": "Màn hình Dynamic AMOLED 6.8 inch, chip Snapdragon 8 Gen 3, camera 200MP, bút S-Pen tích hợp.",
+    "rating": 4.7,
+    "tags": ["samsung", "android", "flagship", "spen", "camera"],
+    "image_url": "https://cdn.tgdd.vn/Products/Images/42/319665/samsung-galaxy-s24-ultra-grey-thumb-600x600.jpg"
+  },
+  {
+    "id": "P003",
+    "name": "MacBook Air M3 13 inch 8GB/256GB",
+    "category": "Laptop",
+    "brand": "Apple",
+    "price": 27990000,
+    "stock": 10,
+    "description": "Chip Apple M3, RAM 8GB, SSD 256GB, màn hình Liquid Retina 13.6 inch, pin 18 giờ, trọng lượng 1.24kg.",
+    "rating": 4.9,
+    "tags": ["macbook", "apple", "laptop", "m3", "mỏng nhẹ"],
+    "image_url": "https://cdn.tgdd.vn/Products/Images/44/322614/macbook-air-m3-2024-13-inch-starlight-thumb-600x600.jpg"
+  },
+  {
+    "id": "P004",
+    "name": "Dell XPS 15 Core i7 16GB/512GB",
+    "category": "Laptop",
+    "brand": "Dell",
+    "price": 35990000,
+    "stock": 8,
+    "description": "Intel Core i7-13700H, RAM 16GB DDR5, SSD 512GB, màn hình OLED 15.6 inch 3.5K, card NVIDIA RTX 4060.",
+    "rating": 4.6,
+    "tags": ["dell", "laptop", "gaming", "workstation", "oled"],
+    "image_url": "https://cdn.tgdd.vn/Products/Images/44/313620/dell-inspiron-15-3530-i7-n5i7054w1-thumb-1-600x600.jpg"
+  },
+  {
+    "id": "P005",
+    "name": "Sony WH-1000XM5",
+    "category": "Tai nghe",
+    "brand": "Sony",
+    "price": 7490000,
+    "stock": 30,
+    "description": "Tai nghe chống ồn hàng đầu, pin 30 giờ, kết nối Bluetooth 5.2, tích hợp trợ lý giọng nói.",
+    "rating": 4.8,
+    "tags": ["sony", "tai nghe", "anc", "chống ồn", "bluetooth"],
+    "image_url": "https://cdn.tgdd.vn/Products/Images/54/282876/tai-nghe-bluetooth-chup-tai-sony-wh-1000xm5-den-thumb-600x600.jpg"
+  },
+  {
+    "id": "P006",
+    "name": "iPad Pro M4 11 inch 256GB WiFi",
+    "category": "Máy tính bảng",
+    "brand": "Apple",
+    "price": 23990000,
+    "stock": 12,
+    "description": "Chip Apple M4, màn hình OLED Ultra Retina XDR 11 inch, hỗ trợ Apple Pencil Pro và Magic Keyboard.",
+    "rating": 4.7,
+    "tags": ["ipad", "apple", "tablet", "m4", "oled"],
+    "image_url": "https://cdn.tgdd.vn/Products/Images/52/325126/ipad-pro-m4-11-inch-wifi-sliver-thumb-600x600.jpg"
+  },
+  {
+    "id": "P007",
+    "name": "Samsung Galaxy Tab S9 FE 256GB",
+    "category": "Máy tính bảng",
+    "brand": "Samsung",
+    "price": 9990000,
+    "stock": 25,
+    "description": "Màn hình TFT LCD 10.9 inch, chip Exynos 1380, RAM 8GB, hỗ trợ S-Pen, pin 8000mAh.",
+    "rating": 4.4,
+    "tags": ["samsung", "tablet", "android", "spen", "tầm trung"],
+    "image_url": "https://cdn.tgdd.vn/Products/Images/52/313337/samsung-galaxy-tab-s9-fe-grey-thumb-600x600.jpg"
+  },
+  {
+    "id": "P008",
+    "name": "Xiaomi Redmi Note 13 Pro 256GB",
+    "category": "Điện thoại",
+    "brand": "Xiaomi",
+    "price": 7490000,
+    "stock": 40,
+    "description": "Màn hình AMOLED 6.67 inch 120Hz, chip Snapdragon 7s Gen 2, camera 200MP, pin 5100mAh, sạc nhanh 67W.",
+    "rating": 4.5,
+    "tags": ["xiaomi", "redmi", "tầm trung", "camera", "sạc nhanh"],
+    "image_url": "https://cdn.tgdd.vn/Products/Images/42/309831/xiaomi-redmi-note-13-pro-den-thumb-600x600.jpg"
+  },
+  {
+    "id": "P009",
+    "name": "Apple Watch Series 9 GPS 41mm",
+    "category": "Đồng hồ thông minh",
+    "brand": "Apple",
+    "price": 9990000,
+    "stock": 18,
+    "description": "Màn hình Retina Always-On độ sáng 2000 nits, chip S9 SiP, thao tác chạm hai lần Double Tap, theo dõi sức khỏe chuyên sâu.",
+    "rating": 4.8,
+    "tags": ["apple watch", "apple", "smartwatch", "sức khỏe"],
+    "image_url": "https://cdn.tgdd.vn/Products/Images/7077/314705/apple-watch-series-9-gps-41mm-vien-nhom-day-silicone-hong-thumb-1-600x600.jpg"
+  },
+  {
+    "id": "P010",
+    "name": "Tai nghe AirPods Pro 2 (USB-C)",
+    "category": "Tai nghe",
+    "brand": "Apple",
+    "price": 5890000,
+    "stock": 50,
+    "description": "Chống ồn chủ động (ANC) thế hệ mới, chip H2, âm thanh không gian (Spatial Audio), hộp sạc USB-C.",
+    "rating": 4.9,
+    "tags": ["airpods", "apple", "tai nghe", "anc", "bluetooth", "tws"],
+    "image_url": "https://cdn.tgdd.vn/Products/Images/54/314742/tai-nghe-bluetooth-airpods-pro-2-magsafe-charge-apple-mtjv3-thumb-1-600x600.jpg"
+  }
+]
