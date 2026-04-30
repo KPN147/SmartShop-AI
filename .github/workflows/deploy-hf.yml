@@ -36,6 +36,18 @@ jobs:
           # Copy toàn bộ code trong thư mục backend sang thư mục hf_space
           cp -a backend/. hf_space/
           
+          # TỰ ĐỘNG TẠO FILE README CHO HUGGING FACE ĐỂ FIX LỖI "Missing configuration"
+          cat << 'EOF' > hf_space/README.md
+---
+title: SmartShop Backend
+emoji: 🚀
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+pinned: false
+---
+EOF
+          
           # Push lên Hugging Face
           cd hf_space
           git add .
