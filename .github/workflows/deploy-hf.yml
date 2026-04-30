@@ -4,7 +4,8 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'backend/**' # Chỉ chạy khi có thay đổi trong thư mục backend
+      - 'backend/**' # Chạy khi code backend thay đổi
+      - '.github/workflows/deploy-hf.yml' # Hoặc khi file cấu hình này thay đổi
   workflow_dispatch:   # Cho phép chạy bằng tay trên web GitHub
 
 jobs:
