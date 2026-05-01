@@ -15,7 +15,7 @@
 **A Multi-Agent E-commerce AI Chatbot System with RAG Architecture**  
 Automated sales consulting, order tracking, and policy answering in real-time.
 
-[🚀 View Demo](#demo) · [📖 API Docs](#api-docs) · [🐳 Docker Setup](#docker-setup)
+[🚀 Live Demo](https://smart-shop-ai-orcin.vercel.app/) · [📖 API Docs](#api-docs) · [🐳 Docker Setup](#docker-setup)
 
 </div>
 
@@ -45,6 +45,18 @@ What makes this project different from a typical chatbot:
 - ✅ **Sentiment-Aware:** Analyzes user sentiment to adjust the AI's response tone (more empathetic when customers complain).
 - ✅ **Multi-Provider LLM:** Flexibly switch between OpenAI, Google Gemini, and Groq (Free Open-Source) just via the `.env` file.
 - ✅ **Streaming UI:** Text appears word-by-word like ChatGPT via Server-Sent Events (SSE).
+
+---
+
+<a id="demo-and-screenshots"></a>
+## 📸 Demo & Screenshots
+
+> **[🔥 TRẢI NGHIỆM LIVE DEMO TẠI ĐÂY](https://smart-shop-ai-henna.vercel.app)**
+
+*(💡 Lời khuyên: Hãy chụp 1-2 bức ảnh giao diện web của bạn và chèn vào đây để nhà tuyển dụng xem ngay lập tức mà không cần bấm link. Xóa dòng này đi sau khi bạn chèn ảnh)*
+<p align="center">
+  <img src="https://via.placeholder.com/800x450?text=Insert+Your+Demo+Screenshot+Here" width="800" alt="SmartShop AI Demo">
+</p>
 
 ---
 
