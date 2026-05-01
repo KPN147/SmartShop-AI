@@ -33,6 +33,13 @@ Automated sales consulting, order tracking, and policy answering in real-time.
 
 ---
 
+<a id="disclaimer"></a>
+## ⚠️ Disclaimer: Fictitious Data
+
+> **IMPORTANT NOTICE:** All data used in this project, including but not limited to the product catalog (`products.json`), customer orders (`orders.json`), and company policies (`policies.txt`), are **entirely fictitious and synthetically generated** for demonstration, educational, and portfolio purposes only. Any resemblance to real products, policies, or companies is purely coincidental.
+
+---
+
 <a id="overview"></a>
 ## 🎯 Overview
 
