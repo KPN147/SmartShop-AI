@@ -51,9 +51,11 @@ class RAGService:
                 model_name="text-embedding-3-small"
             )
         else:
-            # Fallback: ChromaDB default embedding (all-MiniLM-L6-v2, runs locally)
+            # Fallback: Sử dụng mô hình Sentence Transformers hỗ trợ tiếng Việt cực tốt
             # Used when: Groq, Gemini, or any provider without an embedding API
-            return embedding_functions.DefaultEmbeddingFunction()
+            return embedding_functions.SentenceTransformerEmbeddingFunction(
+                model_name="paraphrase-multilingual-MiniLM-L12-v2"
+            )
 
     def _get_llm(self):
         """Initialize LLM based on provider, supports custom base_url (Groq, Together, etc.)."""
